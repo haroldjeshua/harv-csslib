@@ -6,11 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroldjeshua/harv-csslib.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroldjeshua/harv-csslib/issues"
+  },
+  "homepage": "https://github.com/haroldjeshua/harv-csslib#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
     "sass": "^1.56.1"
   }
 }
