@@ -16,7 +16,7 @@ body {
 
 .showcase {
   background-color: $color-primary;
-  color: #fff;
+  color: set-text-color($color-primary);
   height: 600px;
 
   nav {
