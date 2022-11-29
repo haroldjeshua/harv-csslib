@@ -17,10 +17,12 @@
 
 .btn-primary {
   background-color: #c5a6ed;
+  color: #333;
 }
 
 .btn-secondary {
   background-color: hsl(24deg, 90%, 62%);
+  color: #fff;
 }
 
 * {
@@ -56,7 +58,6 @@ body {
   color: hsl(24deg, 90%, 62%);
 }
 .showcase a {
-  color: #fff;
   text-decoration: none;
 }
 .showcase-content {

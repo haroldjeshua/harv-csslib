@@ -15,8 +15,8 @@ body {
 }
 
 .showcase {
-  background-color: $color-primary;
-  color: set-text-color($color-primary);
+  // mixin
+  @include set-background($color-primary);
   height: 600px;
 
   nav {
@@ -39,7 +39,6 @@ body {
   }
 
   a {
-    color: #fff;
     text-decoration: none;
   }
 

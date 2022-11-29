@@ -15,3 +15,10 @@ $color-dark: hsl(0, 0%, 93%);
     @return #fff;
   }
 }
+
+// Set background and text color
+// @mixin: like a function but doesn't return anything
+@mixin set-background($color) {
+  background-color: $color;
+  color: set-text-color($color);
+}
