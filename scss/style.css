@@ -34,8 +34,21 @@ body {
   all: unset;
   color: #fff;
 }
-.showcase .showcase-content {
+.showcase-content {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase-content img {
+  width: 50%;
+}
+.showcase-content h1 {
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+.showcase-content p {
+  margin: 1.2rem 0;
 }
 
 .container {
