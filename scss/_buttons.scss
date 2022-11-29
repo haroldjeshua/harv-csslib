@@ -1,0 +1,23 @@
+// inheritance
+
+%btn {
+  display: inline-block;
+  border-radius: 8px;
+  margin: 4px;
+  padding: 0.5rem 1.1rem;
+
+  &:hover {
+    transform: scale(0.95);
+  }
+}
+
+// lighten function
+.btn-primary {
+  @extend %btn;
+  background-color: lighten($color-primary, 10%);
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color: $color-secondary;
+}
